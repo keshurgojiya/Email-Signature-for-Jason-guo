@@ -6,25 +6,34 @@
   <title>Email Signature - MeasurePM</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    @media only screen and (max-width: 440px) {
+      .stack-column,
+      .stack-column td {
+        display: block !important;
+        width: 100% !important;
+        text-align: left !important;
+      }
+    }
+  </style>
 </head>
 
 <body>
-    <table border="0" cellspacing="0" cellpadding="0" width="100%"
-      style="max-width: 600px; width: 100%; font-family: 'Roboto', sans-serif; background-color: #ffffff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); padding: 20px;">
-      <tr>
-        <td>
-          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-            <div style="margin-right: 44px; padding: 20px 0px;">
-              <img src="images/logo_header.svg" alt="logo" width="160"
-                style="max-width: 100%; height: auto; display: block;">
-            </div>
-            <div style="flex: 1 1 300px;">
+  <table border="0" cellspacing="0" cellpadding="0" width="100%"
+    style="max-width: 600px; font-family: 'Roboto', sans-serif; background-color: #ffffff; box-shadow: 0 0 10px rgba(0,0,0,0.05); padding: 20px;">
+    <tr>
+      <td>
+        <table width="100%" cellpadding="0" cellspacing="0">
+          <tr class="stack-column">
+            <td style="width: 160px; padding: 20px 0;">
+              <img src="images/logo_header.svg" alt="logo" width="160" style="display: block; margin-right: 45px;">
+            </td>
+            <td>
               <p style="color: #3366ff; font-size: 15pt; font-weight: 700; margin: 0;">Jason Guo</p>
               <p style="color: #666363; font-size: 12pt; font-weight: bold; margin-top: 6px; margin-bottom: 18px;">
-                Marketing Director,
-                MeasurePM</p>
+                Marketing Director, MeasurePM</p>
 
-              <p style="border-top: 1px solid #072726; width: 70%;"></p>
+              <p style="border-top: 1px solid #072726; width: 72%;"></p>
 
               <p style="font-size: 11pt; margin: 0 0 5px; display: flex;">
                 <img src="images/phone.png" alt="phone" width="15" height="15" style="padding-right: 10px;" />
@@ -42,29 +51,23 @@
                   style="text-decoration: none; color: #454648;">www.measurepm.com</a>
               </p>
 
-              <p style="margin: 14px 0; display: flex; gap: 2px;">
-                <a href="https://www.facebook.com/groups/551647535757481" target="_blank"
-                  style="text-decoration: none;">
-                  <img src="images/facebook.png" alt="Facebook" width="28" height="28" /></a>&nbsp;
-                <a href="https://www.instagram.com/measure.pm/" target="_blank" style="text-decoration: none;">
-                  <img src="images/instagram.png" alt="Instagram" width="28" height="28" /></a>&nbsp;
-                <a href="https://www.linkedin.com/company/measurepm/" target="_blank" style="text-decoration: none;">
-                  <img src="images/linkedin.png" alt="LinkedIn" width="28" height="28" /></a>
+              <p style="margin: 14px 0;">
+                <a href="https://www.facebook.com/groups/551647535757481" target="_blank"><img src="images/facebook.png" alt="Facebook" width="28" height="28" style="margin-right: 5px;" /></a>
+                <a href="https://www.instagram.com/measure.pm/" target="_blank"><img src="images/instagram.png" alt="Instagram" width="28" height="28" style="margin-right: 5px;" /></a>
+                <a href="https://www.linkedin.com/company/measurepm/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn" width="28" height="28" /></a>
               </p>
-            </div>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td style="border-top: 1px solid #072726;">
-          <p style="color: #999999; font-size: 8pt; font-weight: 400; margin-top: 12px;">
-            <strong style="color: #686868;">IMPORTANT:</strong> The contents of this email and any
-            attachments are confidential. They are intended for the named recipient(s) only. If you have
-            received this email by mistake, please notify the sender immediately and do not disclose the
-            contents to anyone or make copies thereof.
-          </p>
-        </td>
-      </tr>
-    </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style="border-top: 1px solid #072726;">
+        <p style="color: #999999; font-size: 8pt; margin: 12px 0 0;">
+          <strong style="color: #686868;">IMPORTANT:</strong> The contents of this email and any attachments are confidential. They are intended for the named recipient(s) only. If you have received this email by mistake, please notify the sender immediately and do not disclose the contents to anyone or make copies thereof.
+        </p>
+      </td>
+    </tr>
+  </table>
 </body>
 </html>
